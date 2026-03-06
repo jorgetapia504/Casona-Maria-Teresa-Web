@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function SalonEventosSantiago() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col bg-white text-black">
 
       {/* HERO SEO */}
       <section className="relative w-full h-100 lg:h-150 flex items-center justify-center bg-cover bg-center"

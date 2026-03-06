@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function SalonCumpleanos() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col bg-white text-black">
 
       {/* HERO SEO CUMPLEAÑOS */}
       <section

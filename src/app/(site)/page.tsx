@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="">
-      <main className="flex flex-col">
+      <main className="flex flex-col bg-white text-black">
         <div className="relative w-full h-100 lg:h-150 p-2 bg-cover bg-center flex" style={{ backgroundImage: 'url("/salon.jpg")' }}>
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="m-auto relative w-full max-w-7xl flex flex-col gap-6 text-white">

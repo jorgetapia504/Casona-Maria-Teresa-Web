@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function EventosCorporativos() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col bg-white text-black">
 
       {/* HERO CORPORATIVO */}
       <section

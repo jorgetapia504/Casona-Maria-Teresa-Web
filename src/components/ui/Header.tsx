@@ -19,7 +19,7 @@ export default function Header () {
           </div>
         </div>
       </div>
-      <div className="m-auto p-2 w-full border-b bg-white border-neutral-200 hidden gap-4 justify-between md:flex">
+      <div className="m-auto p-2 w-full border-b bg-white text-black border-neutral-200 hidden gap-4 justify-between md:flex">
         <div className="w-full max-w-7xl flex justify-between m-auto">
           <Link href='/' className="w-fit text-5xl font-bold"><Image src='/Logo.png' className="w-30" alt="Logo Casona Maria Teresa" width={500} height={300} /></Link>
           <nav className="flex gap-4 my-auto">
@@ -28,7 +28,7 @@ export default function Header () {
             <Link href='/cumpleanos' className="my-auto">Cumpleaños</Link>
             <Link href='/empresas' className="my-auto">Empresas</Link>
             <Link href='/galeria' className="my-auto">Galeria</Link>
-            <ButtonLink url={"/cotizar"} config="ml-2">Cotizar</ButtonLink>
+            <ButtonLink url={"/cotizar"} config="my-auto">Cotizar</ButtonLink>
           </nav>
         </div>
       </div>

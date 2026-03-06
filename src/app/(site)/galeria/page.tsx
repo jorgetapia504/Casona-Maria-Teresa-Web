@@ -2,6 +2,6 @@ import Galery from "@/components/ui/Galery";
 
 export default function Galeria () {
   return (
-    <Galery />
+    <main className="bg-white text-black"><Galery /></main>
   )
 }

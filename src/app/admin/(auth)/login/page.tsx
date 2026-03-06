@@ -12,11 +12,11 @@ export default async function Page() {
   const session = await getServerSession(authOptions)
 
   if(session){
-    redirect("/admin/dashboard")
+    redirect("/admin/inicio")
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center bg-white text-black">
 
       <div className="w-full max-w-sm">
 
