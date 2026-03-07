@@ -51,7 +51,7 @@ export default function Header () {
       </div>
       <div className={`${view ? 'flex' : 'hidden'}`}>
         <div className={`${menu} transition-all duration-400 min-w-80 w-80 border-b border-r p-3 border-neutral-200 bg-white h-[calc(100dvh-94px)] md:hidden`}>
-          <nav className="flex flex-col gap-4 my-auto">
+          <nav className="flex flex-col gap-4 my-auto text-black">
             <Link href='/salon-eventos-santiago' onClick={() => {
               setMenu('-ml-80')
               setTimeout(() => {
