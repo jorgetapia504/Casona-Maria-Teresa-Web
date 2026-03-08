@@ -50,7 +50,7 @@ export default function Block2 () {
     <div ref={ref} className="w-full max-w-7xl m-auto px-2 py-20 text-center flex flex-col gap-6">
           <h2 className={`${title} transition-opacity duration-200 text-2xl lg:text-4xl font-semibold`}>Un espacio ideal para cada tipo de celebración</h2>
           <div className="flex gap-8 m-auto flex-wrap justify-between">
-            <Link href='/matrimonio' className={`${image1} flex flex-col gap-2 m-auto transition-all duration-200 hover:scale-105`}>
+            <Link href='/matrimonios' className={`${image1} flex flex-col gap-2 m-auto transition-all duration-200 hover:scale-105`}>
               <Image src={"/Matrimonio.jpg"} alt={""} width={500} height={500} className={`w-80 h-120 object-cover rounded-lg`} />
               <p className="text-lg -mt-18 bg-black text-white w-fit m-auto py-2 px-8">Matrimonios</p>
             </Link>
