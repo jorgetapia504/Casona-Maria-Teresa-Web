@@ -58,8 +58,8 @@ export default function Block3 () {
                 <ButtonLink url={"/cotizar"} config={`${button} transition-opacity duration-200 m-auto md:m-0`}>Cotizar evento</ButtonLink>
               </div>
               <div className="m-auto">
-                <Image src={"/Evento 1.jpg"} alt={""} width={700} height={700} className={`${image1} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Evento 2.jpg"} alt={""} width={700} height={700} className={`${image2} transition-opacity duration-200 w-96 h-96 ml-20 -mt-40 xl:ml-40 object-cover rounded-xl`} />
+                <Image src={"/Evento 1.jpg"} alt={""} width={700} height={700} className={`${image1} transition-opacity duration-200 w-60 h-60 sm:w-96 sm:h-96 object-cover rounded-xl`} />
+                <Image src={"/Evento 2.jpg"} alt={""} width={700} height={700} className={`${image2} transition-opacity duration-200 w-60 h-60 sm:w-96 sm:h-96 ml-20 -mt-40 xl:ml-40 object-cover rounded-xl`} />
               </div>
             </div>
   )
