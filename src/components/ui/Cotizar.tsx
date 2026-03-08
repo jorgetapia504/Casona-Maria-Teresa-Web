@@ -7,7 +7,7 @@ import Textarea from "./Textarea";
 import axios from "axios";
 import { Spinner2 } from "./Spinner2";
 
-export default function Cotizar () {
+export default function Cotizar ({ config }: { config?: string }) {
 
   const [client, setClient] = useState({
     firstName: '',
@@ -48,7 +48,7 @@ export default function Cotizar () {
       } finally {
         setLoading(false);
       }
-    }} className="flex flex-col gap-4 w-full max-w-4xl m-auto">
+    }} className={`${config} flex flex-col gap-4 w-full max-w-4xl m-auto`}>
       <div className="flex flex-col gap-2">
         <div className="flex flex-col gap-2">
           <p>Fecha del evento</p>

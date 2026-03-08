@@ -25,7 +25,6 @@ export default function RootLayout({
             </div>
           </div>
           <div className="flex flex-col h-fit gap-2 w-1/2">
-            <Link href='/salon-eventos-santiago' className="my-auto">Salon de eventos</Link>
             <Link href='/matrimonios' className="my-auto">Matrimonios</Link>
             <Link href='/cumpleanos' className="my-auto">Cumpleaños</Link>
             <Link href='/empresas' className="my-auto">Empresas</Link>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Lora } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Montserrat({
+const geistSans = Lora({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
