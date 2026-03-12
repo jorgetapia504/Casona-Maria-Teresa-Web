@@ -53,8 +53,8 @@ export default function Block3 () {
   return (
     <div ref={ref} className="w-full max-w-7xl m-auto px-2 py-20 text-center grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="flex flex-col gap-6 my-auto">
-                <h2 className={`${title} transition-opacity duration-200 text-2xl text-center md:text-left lg:text-4xl font-semibold`}>Una experiencia de alto nivel</h2>
-                <p className={`${text} transition-opacity duration-200 text-md text-center md:text-left lg:text-xl`}>Ubicados en Maipú, con más de 25 años de experiencia y más de 1.000 eventos realizados, hacemos que tu celebración sea una experiencia perfecta y sin estres.</p>
+                <h2 className={`${title} transition-opacity duration-200 text-2xl text-center md:text-left lg:text-4xl font-semibold`}>Haz de tu matrimonio algo inolvidable</h2>
+                <p className={`${text} transition-opacity duration-200 text-md text-center md:text-left lg:text-xl`}>Ubicados en Maipú, con más de 25 años de experiencia y más de 100 matrimonios realizados, hacemos que tu celebración sea una experiencia perfecta y sin estres.</p>
                 <ButtonLink url={"/cotizar"} config={`${button} transition-opacity duration-200 m-auto md:m-0`}>Cotizar evento</ButtonLink>
               </div>
               <div className="m-auto">

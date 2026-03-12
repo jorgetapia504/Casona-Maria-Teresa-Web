@@ -12,6 +12,9 @@ export default function Galery () {
   const [image4, setImage4] = useState('opacity-0')
   const [image5, setImage5] = useState('opacity-0')
   const [image6, setImage6] = useState('opacity-0')
+  const [image7, setImage7] = useState('opacity-0')
+  const [image8, setImage8] = useState('opacity-0')
+  const [image9, setImage9] = useState('opacity-0')
 
   const ref = useRef(null)
   
@@ -33,6 +36,15 @@ export default function Galery () {
                       setImage5('opacity-100')
                       setTimeout(() => {
                         setImage6('opacity-100')
+                        setTimeout(() => {
+                          setImage7('opacity-100')
+                          setTimeout(() => {
+                            setImage8('opacity-100')
+                            setTimeout(() => {
+                              setImage9('opacity-100')
+                            }, 150);
+                          }, 150);
+                        }, 150);
                       }, 150);
                     }, 150);
                   }, 150);
@@ -68,6 +80,9 @@ export default function Galery () {
                 <Image src={"/Evento 4.jpg"} alt={""} width={700} height={700} className={`${image4} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
                 <Image src={"/Evento 5.jpg"} alt={""} width={700} height={700} className={`${image5} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
                 <Image src={"/Evento 6.jpg"} alt={""} width={700} height={700} className={`${image6} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+                <Image src={"/Foto 1.jpg"} alt={""} width={700} height={700} className={`${image7} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+                <Image src={"/Foto 2.jpg"} alt={""} width={700} height={700} className={`${image8} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+                <Image src={"/Foto 3.jpg"} alt={""} width={700} height={700} className={`${image9} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
               </div>
               <ButtonLink url={"/galeria"} config="m-auto">Ver más</ButtonLink>
             </div>

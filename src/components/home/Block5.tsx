@@ -21,7 +21,7 @@ const [title, setTitle] = useState('opacity-0')
         }
       },
       {
-        threshold: 0.4
+        threshold: 0.2
       }
     )
 

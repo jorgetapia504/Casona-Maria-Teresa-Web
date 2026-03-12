@@ -7,6 +7,7 @@ import Block2 from "./Block2";
 import Block3 from "./Block3";
 import Block4 from "./Block4";
 import Block5 from "./Block5";
+import Block6 from "./Block6";
 
 export default function PageHome () {
   return (
@@ -15,6 +16,7 @@ export default function PageHome () {
         <Block1 />
         <Block2 />
         <Block3 />
+        <Block6 />
         <Galery />
         <Block4 />
         <Block5 />
