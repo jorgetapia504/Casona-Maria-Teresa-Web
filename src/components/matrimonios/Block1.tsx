@@ -29,10 +29,10 @@ export default function Block1 () {
 
         <div className="relative max-w-5xl px-4 text-center text-white flex flex-col gap-6">
           <h1 className={`${title} transition-opacity duration-200 text-4xl lg:text-6xl font-semibold leading-tight`}>
-            Centro y Salón de Eventos para Matrimonios en Santiago
+            Centro y Salón de Eventos para Matrimonios en Maipú
           </h1>
           <p className={`${text} transition-opacity duration-200 text-md lg:text-xl`}>
-            Espacio elegante en Maipú ideal para celebraciones románticas inolvidables con todo incluido para hacer de tu día especial algo unico.
+            Espacio elegante en Maipú ideal para celebraciones románticas inolvidables, con todo incluido para hacer de tu día especial algo unico.
           </p>
           <ButtonLink
             url="/cotizar"

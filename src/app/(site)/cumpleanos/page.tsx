@@ -4,12 +4,13 @@ import Block3 from "@/components/cumpleaños/Block3";
 import Block4 from "@/components/cumpleaños/Block4";
 import Block4Home from "@/components/home/Block4";
 import Block5Home from "@/components/home/Block5";
+import Reviews from "@/components/home/Reviews";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Salón de Fiestas y Cumpleaños en Santiago | Casona Maria Teresa",
+  title: "Salón de Fiestas y Cumpleaños en Maipú | Casona Maria Teresa",
   description:
-    "Salón para cumpleaños en Santiago y Maipú. Local para fiestas privadas y cumpleaños para adultos con espacio elegante y moderno.",
+    "Salón para cumpleaños en Maipú. Local para fiestas privadas y cumpleaños para adultos en un espacio elegante y moderno.",
 };
 
 export default function SalonCumpleanos() {
@@ -20,6 +21,7 @@ export default function SalonCumpleanos() {
       <Block3 />
       <Block4 />
       <Block4Home />
+      <Reviews />
       <Block5Home />
     </main>
   );

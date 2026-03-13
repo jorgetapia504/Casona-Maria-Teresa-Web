@@ -29,11 +29,11 @@ export default function Block1 () {
 
         <div className="relative max-w-5xl px-4 text-center text-white flex flex-col gap-6">
           <h1 className={`${title} transition-opacity duration-200 text-4xl lg:text-6xl font-semibold leading-tight`}>
-            Salón de Fiestas y Cumpleaños en Santiago
+            Salón de Fiestas y Cumpleaños en Maipú
           </h1>
           <p className={`${text} transition-opacity duration-200 text-md lg:text-xl md:text-xl`}>
             Local elegante en Maipú ideal para cumpleaños para adultos,
-            fiestas privadas y celebraciones especiales en Santiago.
+            fiestas privadas y celebraciones especiales dentro de Santiago.
           </p>
           <ButtonLink
             url="/cotizar"

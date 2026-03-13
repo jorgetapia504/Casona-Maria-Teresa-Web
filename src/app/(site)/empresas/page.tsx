@@ -4,6 +4,7 @@ import Block3 from "@/components/empresas/Block3";
 import Block4 from "@/components/empresas/Block4";
 import Block4Home from "@/components/home/Block4";
 import Block5Home from "@/components/home/Block5";
+import Reviews from "@/components/home/Reviews";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -21,6 +22,7 @@ export default function EventosCorporativos() {
       <Block3 />
       <Block4 />
       <Block4Home />
+      <Reviews />
       <Block5Home />
     </main>
   );
