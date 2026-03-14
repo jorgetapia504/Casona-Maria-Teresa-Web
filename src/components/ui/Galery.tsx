@@ -84,22 +84,22 @@ export default function Galery () {
 
   return (
     <div ref={ref} className="flex flex-col gap-6 w-full max-w-7xl m-auto px-2 py-20">
-              <h2 className={`${title} transition-opacity duration-200 text-2xl lg:text-4xl font-semibold text-center`}>Galeria de imagenes</h2>
-              <div className="flex gap-8 justify-around flex-wrap">
-                <Image src={"/Fiesta cumpleaños.jpg"} alt={""} width={700} height={700} className={`${image1} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Fiesta cumpleaños 2.jpg"} alt={""} width={700} height={700} className={`${image2} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Fiesta.jpg"} alt={""} width={700} height={700} className={`${image3} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Evento 1.jpg"} alt={""} width={700} height={700} className={`${image4} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Evento 2.jpg"} alt={""} width={700} height={700} className={`${image5} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Evento 3.jpg"} alt={""} width={700} height={700} className={`${image6} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Evento 4.jpg"} alt={""} width={700} height={700} className={`${image7} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Evento 5.jpg"} alt={""} width={700} height={700} className={`${image8} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Evento 6.jpg"} alt={""} width={700} height={700} className={`${image9} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Foto 1.jpg"} alt={""} width={700} height={700} className={`${image10} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Foto 2.jpg"} alt={""} width={700} height={700} className={`${image11} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-                <Image src={"/Foto 3.jpg"} alt={""} width={700} height={700} className={`${image12} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
-              </div>
-              <ButtonLink url={"/galeria"} config="m-auto">Ver más</ButtonLink>
-            </div>
+      <h2 className={`${title} transition-opacity duration-200 text-2xl lg:text-4xl font-semibold text-center`}>Galeria de imagenes</h2>
+      <div className="flex gap-8 justify-around flex-wrap">
+        <Image src={"/Fiesta cumpleaños.jpg"} alt={""} width={700} height={700} className={`${image1} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Fiesta cumpleaños 2.jpg"} alt={""} width={700} height={700} className={`${image2} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Fiesta.jpg"} alt={""} width={700} height={700} className={`${image3} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Evento 1.jpg"} alt={""} width={700} height={700} className={`${image4} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Evento 2.jpg"} alt={""} width={700} height={700} className={`${image5} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Evento 3.jpg"} alt={""} width={700} height={700} className={`${image6} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Evento 4.jpg"} alt={""} width={700} height={700} className={`${image7} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Evento 5.jpg"} alt={""} width={700} height={700} className={`${image8} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Evento 6.jpg"} alt={""} width={700} height={700} className={`${image9} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Foto 1.jpg"} alt={""} width={700} height={700} className={`${image10} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Foto 2.jpg"} alt={""} width={700} height={700} className={`${image11} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+        <Image src={"/Foto 3.jpg"} alt={""} width={700} height={700} className={`${image12} transition-opacity duration-200 w-96 h-96 object-cover rounded-xl`} />
+      </div>
+      <ButtonLink url={"/galeria"} config="m-auto">Ver más</ButtonLink>
+    </div>
   )
 }

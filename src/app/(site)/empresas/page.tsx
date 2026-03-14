@@ -6,7 +6,6 @@ import Block4Home from "@/components/home/Block4";
 import Block5Home from "@/components/home/Block5";
 import Reviews from "@/components/home/Reviews";
 import { Metadata } from "next";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Centro y Salón de Eventos Corporativos en Santiago | Casona Maria Teresa",
